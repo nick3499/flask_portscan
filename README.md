@@ -18,9 +18,9 @@ In a Unix-like terminal emulator, enter the following command line string:
 
 `$ sudo bash portscan.sh`
 
-- `FLASK_APP` environment variable specifies which app to load.
-- `FLASK_ENV` environment variable specifies which environment the Flask app operates in. In this case, `development` mode.
-- `flask run` starts Flask, which enables _debug mode_, _interactive debugger_ and _reloader_.
+- `FLASK_APP=portscan` tells Flask to load the portscan app
+- `FLASK_ENV=development` tells Flask to enable debug mode, interactive debugger and reloader
+- `flask run` starts Flask
 
 Something close to the following will print to terminal:
 
