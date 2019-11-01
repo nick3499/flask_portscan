@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Port Scans</title>
+  <style>
+    h3 { color: #4CBB17; }
+    table { border-collapse: collapse; }
+    td {
+      border: 1px solid #B4EEB4;
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h3>Port Scan: {{ address }}</h3>
+  <table>
+  {%- for i in data %}
+    <tr>
+      <td>{{ i }}</td>
+    <tr>
+  {%- endfor %}
+  </table>
+</body>
+</html>
