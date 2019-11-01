@@ -96,7 +96,7 @@ The code block above indicates that the Python interpreter will execute `portsca
 
 ## portscan.html
 
-[cpu_times.html](https://jinja.palletsprojects.com/en/2.10.x/templates/) is a Jinja template _which contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template._
+`portscan.html` is a [Jinja template](https://jinja.palletsprojects.com/en/2.10.x/templates/) _which contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template._
 
 ```html
 <!DOCTYPE html>
