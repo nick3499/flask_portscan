@@ -20,7 +20,7 @@ In a Unix-like terminal emulator, enter the following command line string:
 
 - `FLASK_APP` environment variable specifies which app to load.
 - `FLASK_ENV` environment variable specifies which environment the Flask app operates in. In this case, `development` mode.
-- `flask run` starts Flash, which enables _debug mode_, _interactive debugger_ and _reloader_.
+- `flask run` starts Flask, which enables _debug mode_, _interactive debugger_ and _reloader_.
 
 Something close to the following will print to terminal:
 
