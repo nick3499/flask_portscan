@@ -6,7 +6,7 @@ This repo has been made available under [MIT license](https://github.com/nick349
 
 ## portscan.sh
 
-A shell script can be used to configure exports and start Flask.
+A shell script can be used to export environmental variables, then start Flask.
 
 ```bash
 export FLASK_APP=portscan
