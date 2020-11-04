@@ -123,3 +123,5 @@ The code block above indicates that the Python interpreter will execute `portsca
 ```
 
 `{%- for i in data %}` indicates that the template will iterate through the list of strings stored in `data`.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R72LISM)
